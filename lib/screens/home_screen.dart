@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:ui_design/screens/fast_filter_bar_image.dart';
 import 'package:ui_design/screens/fast_filter_bar_setstate.dart';
 import 'package:ui_design/utils/icons.dart';
 import 'package:flutter/foundation.dart';
@@ -133,6 +134,10 @@ class HomeScreen extends StatelessWidget {
                         ),
                       ),
                ),
+              SizedBox(
+                height: 300,
+                width: 350,
+                child: MyApp()),
             ],
           ),
         ),
